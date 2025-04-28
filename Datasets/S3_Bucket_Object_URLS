@@ -1,0 +1,5 @@
+Ball_By_Ball.csv == https://amzn-s3-ipl-bucket-2017.s3.eu-north-1.amazonaws.com/Ball_By_Ball.csv
+Match.csv == https://amzn-s3-ipl-bucket-2017.s3.eu-north-1.amazonaws.com/Match.csv
+Player.csv == https://amzn-s3-ipl-bucket-2017.s3.eu-north-1.amazonaws.com/Player.csv
+Player_match.csv == https://amzn-s3-ipl-bucket-2017.s3.eu-north-1.amazonaws.com/Player_match.csv
+Team.csv == https://amzn-s3-ipl-bucket-2017.s3.eu-north-1.amazonaws.com/Team.csv
