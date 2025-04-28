@@ -1,58 +1,71 @@
-📚 Overview
+# 📊 IPL Data Analysis Using PySpark, Databricks, and AWS S3
 
-This project analyzes Indian Premier League (IPL) cricket data using PySpark on Databricks.
-Datasets were sourced from AWS S3 storage, and analyzed using distributed computing for efficient processing of large datasets.
+## 📚 Overview
 
-The goal was to uncover insights related to player performances, team strategies, and match outcomes using Big Data techniques.
-⚙️ Technologies Used
+This project explores and analyzes Indian Premier League (IPL) cricket data using PySpark on Databricks.
+The datasets are sourced from AWS S3 storage and processed using distributed computing techniques for scalability and performance.
 
-    PySpark
+The objective is to uncover player performance trends, team statistics, and match insights through large-scale data processing and analysis.
 
-    Databricks
 
-    AWS S3
+## ⚙️ Technologies Used
 
-    CSV Data Sources
+1. PySpark
 
-    Python
+2. Databricks
 
-🧩 Dataset Information
+3. AWS S3
 
-The following datasets were used:
+4. Python 3.8+
 
-    Ball_By_Ball.csv
+5. Apache Spark SQL
 
-    Match.csv
+## 🧩 Dataset Information
 
-    Player.csv
+The following datasets were used (stored on AWS S3):
 
-    Player_Match.csv
+- Ball_By_Ball.csv
 
-    Team.csv
+- Match.csv
 
-    Data was directly loaded from an AWS S3 bucket.
+- Player.csv
 
-🧪 Project Steps
+- Player_Match.csv
 
-    Create SparkSession and define schemas.
+- Team.csv
 
-    Load datasets from S3 using structured reading.
+Each dataset covers different aspects of IPL matches, including ball-by-ball actions, match summaries, team compositions, and player statistics.
 
-    Perform data cleaning and preprocessing.
+## 🧪 Project Workflow
 
-    Join multiple tables for richer insights.
+### Spark Session Setup: 
+  
+-  Initialize a PySpark session inside Databricks.
 
-    Conduct Exploratory Data Analysis (EDA):
+-  Schema Definition: Define structured schemas for each dataset.
 
-        Top run scorers
+-  Data Loading: Read datasets directly from AWS S3 into Spark DataFrames.
 
-        Best bowlers
+### Data Preprocessing:
 
-        Winning trends
+-   Handle missing values
 
-        Team performances across seasons
+-   Perform data type corrections
 
-    Visualization of insights 
+-   Apply basic transformations
 
-DataBricks Pulished Link
-(https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1995427356338600/4132950691476681/7330905137864293/latest.html)
+-   Exploratory Data Analysis (EDA):
+
+-   Analyze player performances
+
+-   Study team winning trends
+
+-  Identify top performers (batsmen, bowlers)
+
+### Visualizations 
+
+## 🔗 DataBricks Pulished Link 
+
+    https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1995427356338600/4132950691476681/7330905137864293/latest.html
+
+        
